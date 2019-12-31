@@ -28,7 +28,7 @@ cd shinyproxy-config/docker-compose-example
    
    
 ```{r, echo = FALSE, comment=""}
-fs::dir_tree()
+fs::dir_tree("docker-compose-example")
 ```
    
    

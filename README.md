@@ -16,21 +16,18 @@ cd shinyproxy-config/docker-compose-example
 
 **Template folder structure**:
 
-    .
-    ├── README.Rmd
-    ├── docker-compose-example
-    │   ├── docker-compose.yml
-    │   ├── shinyapps
-    │   │   └── euler-docker
-    │   │       ├── Dockerfile
-    │   │       ├── Rprofile.site
-    │   │       └── euler
-    │   │           ├── server.R
-    │   │           └── ui.R
-    │   └── shinyproxy
+    docker-compose-example
+    ├── docker-compose.yml
+    ├── shinyapps
+    │   └── euler-docker
     │       ├── Dockerfile
-    │       └── application.yml
-    └── shinyproxy-config.Rproj
+    │       ├── Rprofile.site
+    │       └── euler
+    │           ├── server.R
+    │           └── ui.R
+    └── shinyproxy
+        ├── Dockerfile
+        └── application.yml
 
 **Content of the docker-compose.yml**:
 
